@@ -1,0 +1,6 @@
+﻿  Calculator.h
+Debug\Calculator.obj : warning LNK4042: 개체가 두 번 이상 지정되었습니다. 나머지는 무시됩니다.
+Program.obj : error LNK2019: "public: __thiscall Calculator::Calculator(char const *)" (??0Calculator@@QAE@PBD@Z)_main 함수에서 참조되는 확인할 수 없는 외부 기호
+Program.obj : error LNK2019: "public: __thiscall Calculator::~Calculator(void)" (??1Calculator@@QAE@XZ)"public: void * __thiscall Calculator::`scalar deleting destructor'(unsigned int)" (??_GCalculator@@QAEPAXI@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+Program.obj : error LNK2019: "public: void __thiscall Calculator::Run(void)" (?Run@Calculator@@QAEXXZ)_main 함수에서 참조되는 확인할 수 없는 외부 기호
+C:\Users\CSCAM\source\repos\Project\Debug\Project.exe : fatal error LNK1120: 3개의 확인할 수 없는 외부 참조입니다.
